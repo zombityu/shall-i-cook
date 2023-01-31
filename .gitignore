@@ -136,8 +136,11 @@ fabric.properties
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
 # *.iml
-# modules.xml
-# .idea/misc.xml
+modules.xml
+.idea/misc.xml
+.idea/php.xml
+.idea/ShallICook.iml
+.idea/vcs.xml
 # *.ipr
 
 # Sonarlint plugin
@@ -165,3 +168,7 @@ fabric.properties
 # Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
+
+/mysql
+
+/.idea
